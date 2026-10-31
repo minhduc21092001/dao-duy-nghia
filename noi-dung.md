@@ -95,9 +95,12 @@ Thêm/bớt dòng `Album ảnh NN` tuỳ ý (thứ tự hiển thị theo thứ 
 
 Dán link Google Maps của nhà hàng (Google Maps → chọn địa điểm → Chia sẻ → Sao chép liên kết). Nút "Chỉ đường" mở đúng link này. Khung bản đồ lấy toạ độ/địa chỉ trong link; nếu là link rút gọn (`maps.app.goo.gl`) thì khung bản đồ hiện theo "Nơi tổ chức tiệc". Để trống link thì cả hai dùng "Nơi tổ chức tiệc".
 
+**Bản đồ - toạ độ** (dạng `vĩ độ,kinh độ`) làm khung bản đồ ghim đúng chỗ trên cả điện thoại lẫn máy tính; nếu chỉ dùng địa chỉ chữ thì điện thoại có thể không tìm ra địa điểm. Cách lấy: Google Maps → bấm giữ vào đúng điểm (hoặc chọn địa điểm) → toạ độ hiện ở đầu ô tìm kiếm / menu, bấm để chép. Để trống thì dùng link/địa chỉ như trên.
+
 - Bản đồ - tiêu đề: Tiệc cưới sẽ tổ chức tại
 - Nơi tổ chức tiệc: Nhà hàng Long Biên, số 6 Tân Sơn, Phường An Hội Tây, TP.Hồ Chí Minh
 - Link Google Maps: https://www.google.com/maps?q=Nh%C3%A0+H%C3%A0ng+Long+Bi%C3%AAn,+s%E1%BB%91+6+T%C3%A2n+S%C6%A1n,+ph%C6%B0%E1%BB%9Dng+An+H%E1%BB%99i+T%C3%A2y,+TP+H%E1%BB%93+Ch%C3%AD+Minh
+- Bản đồ - toạ độ: 10.8300766,106.6500993
 - Nút chỉ đường: Chỉ đường
 
 ## 8. Dress code

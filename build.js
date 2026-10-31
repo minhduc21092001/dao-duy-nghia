@@ -147,13 +147,14 @@ function taoMauTrangPhuc(muc) {
 }
 
 // Google Maps: lấy toạ độ ghim / tham số q trong link để nhúng bản đồ; link rút gọn thì nhúng theo địa chỉ
-function banDo(link, diaChi) {
-  let q = '';
-  if (link) {
+function banDo(link, diaChi, toaDo) {
+  // Toạ độ "vĩ độ,kinh độ" ghim chắc chắn nhất: địa chỉ chữ dài thường không tìm ra địa điểm khi mở bằng điện thoại
+  let q = /^\s*-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?\s*$/.test(toaDo) ? toaDo.replace(/\s+/g, '') : '';
+  if (!q && link) {
     let s = link;
     try { s = decodeURIComponent(link); } catch (e) { /* giữ nguyên */ }
-    const toaDo = s.match(/!3d(-?\d+(?:\.\d+)?)!4d(-?\d+(?:\.\d+)?)/) || s.match(/@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/);
-    if (toaDo) q = `${toaDo[1]},${toaDo[2]}`;
+    const khop = s.match(/!3d(-?\d+(?:\.\d+)?)!4d(-?\d+(?:\.\d+)?)/) || s.match(/@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/);
+    if (khop) q = `${khop[1]},${khop[2]}`;
     else {
       try {
         const u = new URL(link);
@@ -163,7 +164,7 @@ function banDo(link, diaChi) {
   }
   q = q || diaChi.replace(/\s*\|\s*/g, ' ');
   return {
-    nhung: 'https://www.google.com/maps?q=' + encodeURIComponent(q) + '&output=embed',
+    nhung: 'https://www.google.com/maps?q=' + encodeURIComponent(q) + '&z=16&output=embed',
     chiDuong: link || linkChiDuong(diaChi),
   };
 }
@@ -243,7 +244,7 @@ function build() {
   docGio(lay, 'Giờ đón khách');
   const gioTiec = docGio(lay, 'Giờ khai tiệc');
   const album = taoAlbum(muc);
-  const bd = banDo(lay('Link Google Maps'), lay('Nơi tổ chức tiệc'));
+  const bd = banDo(lay('Link Google Maps'), lay('Nơi tổ chức tiệc'), lay('Bản đồ - toạ độ'));
   const nhac = lay('Nhạc nền');
   const p2 = (x) => String(x).padStart(2, '0');
 
