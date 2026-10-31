@@ -1,0 +1,4 @@
+# Dùng khi kết nối Netlify với Git: Netlify tự chạy build và đăng thư mục website/
+[build]
+  command = "node build.js"
+  publish = "website"

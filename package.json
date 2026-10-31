@@ -1,0 +1,16 @@
+{
+  "name": "thiep-cuoi-duy-nghia-thanh-ha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Thiệp cưới online: sửa noi-dung.md và ảnh trong anh/, chạy build để tạo website/",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --serve"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

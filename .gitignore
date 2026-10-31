@@ -1,0 +1,11 @@
+# Thư mục được tạo ra bởi `npm run build`
+website/
+node_modules/
+# Link ngắn tạo khi xem thử trên máy (trên Netlify lưu ở Netlify Blobs)
+lien-ket.local.json
+
+# Ảnh gốc độ phân giải cao / file zip của cặp đôi (giữ trên máy, không đưa lên repo)
+anh-goc/
+*.zip
+# Bản clone cũ (Codex) giữ lại để đối chiếu, không đưa lên repo
+_ban-cu-codex/
