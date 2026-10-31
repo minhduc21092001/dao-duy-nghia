@@ -44,10 +44,10 @@ Thứ, ngày, tháng, năm và lịch tháng đều tự tính từ "Ngày cư�
 - Bố mẹ - chữ đứng trước: Ông Bà
 - Bố chú rể: Đào Đình Bẩy
 - Mẹ chú rể: Phó Thị Thoa
-- Địa chỉ nhà trai: 8/6 Đường Huỳnh Thị Hai, Phường Trung Mỹ Tây, | TP.Hồ Chí Minh
+- Địa chỉ nhà trai: 8/6 Đường Huỳnh Thị Hai, | Phường Trung Mỹ Tây, | TP.Hồ Chí Minh
 - Bố cô dâu: Lê Văn Núi
 - Mẹ cô dâu: Nguyễn Thị Mai
-- Địa chỉ nhà gái: 21 Đường Cách Mạng Tháng 8, Xã Ia Grai, | Tỉnh Gia Lai
+- Địa chỉ nhà gái: 21 Đường Cách Mạng Tháng 8, | Xã Ia Grai, | Tỉnh Gia Lai
 - Lời báo tin: TRÂN TRỌNG BÁO TIN | LỄ THÀNH HÔN CỦA CON CHÚNG TÔI
 - Họ tên chú rể: Đào Duy Nghĩa
 - Vai vế chú rể: Trưởng Nam
@@ -59,7 +59,7 @@ Thứ, ngày, tháng, năm và lịch tháng đều tự tính từ "Ngày cư�
 - Giờ làm lễ: 05:00
 - Lễ cưới - chữ nối giờ: ĐẾN
 - Giờ làm lễ kết thúc: 07:00
-- Ngày âm lịch: (Tức ngày 20 tháng 10 năm Bính Ngọ)
+- Ngày âm lịch: (Nhằm ngày 20 tháng 10 năm Bính Ngọ)
 
 ## 5. Album ảnh
 
@@ -76,6 +76,7 @@ Thêm/bớt dòng `Album ảnh NN` tuỳ ý (thứ tự hiển thị theo thứ 
 - Album ảnh 08: anh/album/08.jpg
 - Album ảnh 09: anh/album/09.jpg
 - Album ảnh 10: anh/album/10.jpg
+- Album ảnh 11: anh/album/11.jpg
 
 ## 6. Tiệc cưới
 
@@ -98,7 +99,7 @@ Dán link Google Maps của nhà hàng (Google Maps → chọn địa điểm �
 **Bản đồ - toạ độ** (dạng `vĩ độ,kinh độ`) làm khung bản đồ ghim đúng chỗ trên cả điện thoại lẫn máy tính; nếu chỉ dùng địa chỉ chữ thì điện thoại có thể không tìm ra địa điểm. Cách lấy: Google Maps → bấm giữ vào đúng điểm (hoặc chọn địa điểm) → toạ độ hiện ở đầu ô tìm kiếm / menu, bấm để chép. Để trống thì dùng link/địa chỉ như trên.
 
 - Bản đồ - tiêu đề: Tiệc cưới sẽ tổ chức tại
-- Nơi tổ chức tiệc: Nhà hàng Long Biên, số 6 Tân Sơn, Phường An Hội Tây, TP.Hồ Chí Minh
+- Nơi tổ chức tiệc: Trung tâm Hội nghị - Tiệc Cưới Long Biên Palace | Số 6 Tân Sơn, Phường An Hội Tây, TP.Hồ Chí Minh
 - Link Google Maps: https://www.google.com/maps?q=Nh%C3%A0+H%C3%A0ng+Long+Bi%C3%AAn,+s%E1%BB%91+6+T%C3%A2n+S%C6%A1n,+ph%C6%B0%E1%BB%9Dng+An+H%E1%BB%99i+T%C3%A2y,+TP+H%E1%BB%93+Ch%C3%AD+Minh
 - Bản đồ - toạ độ: 10.8300766,106.6500993
 - Nút chỉ đường: Chỉ đường
@@ -179,7 +180,7 @@ Ghi `có` hoặc `không`.
 - Hiện nút thêm vào lịch (có/không): không
 - Hiện nút xác nhận tham dự (có/không): không
 - Hiện bản đồ (có/không): có
-- Hiện dress code (có/không): có
+- Hiện dress code (có/không): không
 - Hiện lịch trình (có/không): không
 - Hiện sổ lưu bút (có/không): có
 - Hiện hộp quà mừng (có/không): có

@@ -244,7 +244,7 @@ function build() {
   docGio(lay, 'Giờ đón khách');
   const gioTiec = docGio(lay, 'Giờ khai tiệc');
   const album = taoAlbum(muc);
-  const bd = banDo(lay('Link Google Maps'), lay('Nơi tổ chức tiệc'), lay('Bản đồ - toạ độ'));
+  const bd = banDo(lay('Link Google Maps'), lay('Nơi tổ chức tiệc').replace(/\s*\|\s*/g, ' '), lay('Bản đồ - toạ độ'));
   const nhac = lay('Nhạc nền');
   const p2 = (x) => String(x).padStart(2, '0');
 
@@ -255,6 +255,8 @@ function build() {
     goiYLoiChuc: lay('Lời chúc - gợi ý').split('|').map((s) => s.trim()).filter(Boolean),
   };
   const tinhSan = {
+    // Phần trước dấu | đầu tiên là tên nơi tiệc (in to hơn); phần sau là địa chỉ, xuống dòng
+    '@tiec-noi': (() => { const [ten, ...dia] = lay('Nơi tổ chức tiệc').split('|'); return `<span class="tiec-ten">${nhieuDong(ten)}</span>` + (dia.length ? nhieuDong(dia.join('|')) : ''); })(),
     '@duong-dan-goc': escAttr(goc),
     '@anh-chia-se': escAttr(diaChiDayDu(lay, lay('Ảnh khi chia sẻ'))),
     '@anh-chia-se-kich-thuoc': (() => {

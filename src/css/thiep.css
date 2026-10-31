@@ -80,3 +80,12 @@ dialog::backdrop{background:#0009}
 @media(min-width:768px){span:has(>[data-field="Bố chú rể"]),span:has(>[data-field="Mẹ chú rể"]),span:has(>[data-field="Bố cô dâu"]),span:has(>[data-field="Mẹ cô dâu"]){font-size:14px!important}}
 @media(max-width:639px){.music-control{right:16px;bottom:76px}.gift-fab{bottom:16px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:0s!important;scroll-behavior:auto!important}}
+
+/* Địa chỉ hai nhà: mỗi cụm giữa hai dấu phẩy nằm trọn một dòng, không bị cắt giữa chừng */
+[data-field="Địa chỉ nhà trai"],[data-field="Địa chỉ nhà gái"]{white-space:nowrap!important}
+
+/* Thu ngắn khoảng trống giữa bản đồ và sổ lưu bút (điện thoại) */
+@media(max-width:767px){div:has(>section #guestbook-form){margin-top:-48px}}
+
+/* Nơi tiệc: tên nơi tổ chức in to hơn, địa chỉ ở dòng dưới */
+.tiec-ten{display:block;width:max-content;position:relative;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:min(1.3em,3.3vw);font-weight:700;line-height:1.35;margin-bottom:4px}
