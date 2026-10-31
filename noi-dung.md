@@ -187,4 +187,4 @@ Ghi `có` hoặc `không`.
 **Địa chỉ website** phải là địa chỉ thật (vd. `https://duynghia-thanhha.netlify.app`) thì ảnh xem trước khi gửi link mới hiện.
 
 - Đường dẫn gốc: /
-- Địa chỉ website: https://ten-mien-cua-ban.vn
+- Địa chỉ website: https://duy-nghia-thanh-ha.netlify.app
