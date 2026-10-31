@@ -85,9 +85,9 @@ Thêm/bớt dòng `Album ảnh NN` tuỳ ý (thứ tự hiển thị theo thứ 
 - Tiệc cưới - tiêu đề: THÔNG TIN TIỆC CƯỚI
 - Tiệc cưới - câu dẫn: Tiệc cưới sẽ diễn ra vào lúc:
 - Tiệc cưới - chữ đón khách: Đón khách
-- Giờ đón khách: 10:30
+- Giờ đón khách: 11:00
 - Tiệc cưới - chữ khai tiệc: Khai tiệc
-- Giờ khai tiệc: 11:00
+- Giờ khai tiệc: 12:00
 - Đếm ngược - tiêu đề: Cùng đếm ngược
 - Nút thêm vào lịch: Thêm vào lịch
 - Nút xác nhận tham dự: XÁC NHẬN THAM DỰ
