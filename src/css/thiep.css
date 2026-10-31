@@ -41,7 +41,7 @@ dialog::backdrop{background:#0009}
 #toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);max-width:90vw;width:max-content;padding:12px 18px;border-radius:12px;background:#511419;color:#ece4d8;z-index:1000;box-shadow:0 8px 24px #0003;font:14px/1.5 system-ui}
 
 /* Nút nhạc */
-.music-control{position:fixed;bottom:24px;right:24px;width:48px;height:48px;z-index:45;border-radius:50%;background:radial-gradient(circle at 30% 30%,#895057,#511419);color:white;border:2px solid #b18b8d;box-shadow:0 0 0 4px #51141933,0 4px 10px #0003;display:grid;place-items:center}
+.music-control{position:fixed;bottom:84px;right:24px;width:48px;height:48px;z-index:45;border-radius:50%;background:radial-gradient(circle at 30% 30%,#895057,#511419);color:white;border:2px solid #b18b8d;box-shadow:0 0 0 4px #51141933,0 4px 10px #0003;display:grid;place-items:center}
 .bars{display:flex;align-items:center;gap:3px;height:20px}
 .bars i{width:3px;height:6px;border-radius:3px;background:#fff}
 .music-control.playing i{animation:music-dance .4s ease-in-out infinite alternate}
@@ -49,6 +49,8 @@ dialog::backdrop{background:#0009}
 .bars i:nth-child(3){animation-delay:.2s!important;height:11px}
 .bars i:nth-child(4){animation-delay:.3s!important;height:5px}
 @keyframes music-dance{from{height:5px}to{height:20px}}
+/* Nút quà nổi nằm ngay dưới nút loa, cùng góc; bấm mở khung QR mừng cưới */
+.gift-fab{bottom:24px}
 
 /* Hộp thoại xác nhận tham dự */
 .local-rsvp{position:fixed;inset:0;margin:auto;width:calc(100% - 32px);max-width:448px;max-height:90dvh;overflow-y:auto;border:0;border-radius:16px;background:#fff;color:#111827;padding:24px;font:14px/1.5 system-ui;box-shadow:0 20px 60px #0005}
@@ -76,5 +78,5 @@ dialog::backdrop{background:#0009}
 .rsvp-close:focus-visible{outline:2px solid #511419;outline-offset:3px}
 
 @media(min-width:768px){span:has(>[data-field="Bố chú rể"]),span:has(>[data-field="Mẹ chú rể"]),span:has(>[data-field="Bố cô dâu"]),span:has(>[data-field="Mẹ cô dâu"]){font-size:14px!important}}
-@media(max-width:639px){.music-control{right:16px;bottom:62px}}
+@media(max-width:639px){.music-control{right:16px;bottom:76px}.gift-fab{bottom:16px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:0s!important;scroll-behavior:auto!important}}

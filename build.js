@@ -67,6 +67,7 @@ const TIM = '<svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1e
 // Mục "ẩn/hiện" trong noi-dung.md -> {{@an-…}} trong thiep.html
 const AN_HIEN = {
   'Hiện album ảnh (có/không)': 'album',
+  'Hiện nút thêm vào lịch (có/không)': 'them-lich',
   'Hiện nút xác nhận tham dự (có/không)': 'xac-nhan',
   'Hiện bản đồ (có/không)': 'ban-do',
   'Hiện dress code (có/không)': 'dress-code',
@@ -238,6 +239,7 @@ function build() {
   const goc = chuanHoaGoc(lay('Đường dẫn gốc'));
   const d = docNgay(lay);
   docGio(lay, 'Giờ làm lễ');
+  docGio(lay, 'Giờ làm lễ kết thúc');
   docGio(lay, 'Giờ đón khách');
   const gioTiec = docGio(lay, 'Giờ khai tiệc');
   const album = taoAlbum(muc);

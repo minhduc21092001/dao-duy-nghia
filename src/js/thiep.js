@@ -110,6 +110,7 @@
       window.scrollTo(0, 0);
       state = 'open';
       musicButton.hidden = !CFG.coNhac;
+      $('gift-fab').hidden = !!$('gift-button').closest('[hidden]'); // phần hộp quà bị ẩn thì không hiện nút nổi
       loadMap();
       scheduleCarousel();
     }, reduced ? 10 : 1300));
@@ -234,7 +235,7 @@
 
   /* ---------------------------------------------------------------- hộp thoại */
   $('rsvp-button').onclick = function () { $('rsvp-dialog').showModal(); };
-  $('gift-button').onclick = function () { $('gift-dialog').showModal(); };
+  $('gift-button').onclick = $('gift-fab').onclick = function () { $('gift-dialog').showModal(); };
   document.querySelectorAll('[data-close]').forEach(function (e) { e.onclick = function () { e.closest('dialog').close(); }; });
   document.querySelectorAll('dialog').forEach(function (d) {
     d.addEventListener('click', function (e) {

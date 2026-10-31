@@ -53,10 +53,12 @@ Thứ, ngày, tháng, năm và lịch tháng đều tự tính từ "Ngày cư�
 - Vai vế chú rể: Trưởng Nam
 - Họ tên cô dâu: Lê Thị Thanh Hà
 - Vai vế cô dâu: Thứ Nữ
-- Nơi làm lễ: LỄ THÀNH HÔN ĐƯỢC CỬ HÀNH TẠI | TƯ GIA NHÀ TRAI
+- Nơi làm lễ: LỄ GIA TIÊN
 - Ngày cưới: 2026-11-28
-- Lễ cưới - chữ trước giờ: VÀO LÚC
+- Lễ cưới - chữ trước giờ: TỪ
 - Giờ làm lễ: 05:00
+- Lễ cưới - chữ nối giờ: ĐẾN
+- Giờ làm lễ kết thúc: 07:00
 - Ngày âm lịch: (Tức ngày 20 tháng 10 năm Bính Ngọ)
 
 ## 5. Album ảnh
@@ -141,19 +143,19 @@ Lời chúc và xác nhận tham dự được lưu vào Google Sheet nếu đi�
 
 ## 11. Hộp quà mừng
 
-⚠️ Ảnh QR hiện tại chỉ là QR **DEMO** (không chuyển tiền được). Thay ảnh QR thật vào `anh/mung-cuoi/` và điền đúng ngân hàng, số tài khoản, chủ tài khoản.
+Hai QR là QR thật (chú rể: BIDV, cô dâu: MB Bank), đã quét thử khớp số tài khoản. Muốn đổi: thay ảnh trong `anh/mung-cuoi/` và sửa các dòng bên dưới.
 
 - Hộp quà - tiêu đề: Hộp Quà Mừng
 - Hộp quà - chữ dưới: Nhấn để mở
 - Chú rể - tiêu đề tài khoản: Chú Rể - ĐÀO DUY NGHĨA
-- Chú rể - ngân hàng: Ngân hàng demo
-- Chú rể - số tài khoản: DEMO-000000
-- Chú rể - chủ tài khoản: DAO DUY NGHIA - DEMO
+- Chú rể - ngân hàng: BIDV - PGD Nhật Tảo
+- Chú rể - số tài khoản: 8813485889
+- Chú rể - chủ tài khoản: DAO DUY NGHIA
 - Chú rể - ảnh QR: anh/mung-cuoi/qr-chu-re.png
 - Cô dâu - tiêu đề tài khoản: Cô Dâu - LÊ THỊ THANH HÀ
-- Cô dâu - ngân hàng: Ngân hàng demo
-- Cô dâu - số tài khoản: DEMO-000000
-- Cô dâu - chủ tài khoản: LE THI THANH HA - DEMO
+- Cô dâu - ngân hàng: MB Bank
+- Cô dâu - số tài khoản: 0382151756
+- Cô dâu - chủ tài khoản: LE THI THANH HA
 - Cô dâu - ảnh QR: anh/mung-cuoi/qr-co-dau.png
 
 ## 12. Lời cảm ơn cuối trang
@@ -171,10 +173,11 @@ Thiệp thử tự phát nhạc ngay khi mở. Trình duyệt chặn thì nhạc
 Ghi `có` hoặc `không`.
 
 - Hiện album ảnh (có/không): có
-- Hiện nút xác nhận tham dự (có/không): có
+- Hiện nút thêm vào lịch (có/không): không
+- Hiện nút xác nhận tham dự (có/không): không
 - Hiện bản đồ (có/không): có
 - Hiện dress code (có/không): có
-- Hiện lịch trình (có/không): có
+- Hiện lịch trình (có/không): không
 - Hiện sổ lưu bút (có/không): có
 - Hiện hộp quà mừng (có/không): có
 
